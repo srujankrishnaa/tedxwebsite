@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from '../components/Navbar';
 import AboutHero from '../components/AboutHero';
 import AboutContent from '../components/AboutContent';
@@ -13,6 +14,7 @@ export default function AboutPage() {
       <AboutContent />
       <TeamSection />
       <Footer />
+      <Analytics />
     </div>
   );
 }

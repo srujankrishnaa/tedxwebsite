@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -77,6 +78,7 @@ export default function NotFoundPage() {
       </div>
       
       <Footer />
+      <Analytics />
     </div>
   );
 }

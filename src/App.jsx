@@ -1,4 +1,5 @@
 import React from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from './components/Navbar'
 import EventHero from './components/EventHero'
 import WhatIsTedx from './components/WhatIsTedx'
@@ -17,6 +18,7 @@ function App() {
       <Talks />
       <Countdown />
       <Footer />
+      <Analytics />
     </div>
   )
 }

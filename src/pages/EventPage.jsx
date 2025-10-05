@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import Hero from '../components/Hero';
 import EventDetails from '../components/EventDetails';
 import EventSpeakers from '../components/EventSpeakers';
@@ -16,6 +17,7 @@ export default function EventPage() {
       <EventSpeakers />
       <EventPayment />
       <Footer />
+      <Analytics />
     </div>
   );
 }
